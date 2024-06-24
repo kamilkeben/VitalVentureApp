@@ -7,11 +7,10 @@
 
 import SwiftUI
 
-@main
-struct VitalVentureAppApp: App {
+ @main struct VitalVentureAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }
